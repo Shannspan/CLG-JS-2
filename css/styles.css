@@ -1,6 +1,52 @@
 body {
-    background-image: url("/images/Turtle-cliff-beach.jpg") ;
+    font-family: 'Rampart One', cursive;
+    background-image: url("/images/Turtle-cliff-beach.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 30;
+    font-size: 2em;
+    color:#0e0e62;
+    text-align: center;
+
+   
 }
+
+header {
+    background-color: lightgray;
+}
+
+nav{
+   
+
+}
+
+section {
+
+}
+
+article {
+
+}
+
+aside {
+
+}
+
+footer {
+    background-color: lightgray;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 0.5em;
+    color: #0e0e62;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+
+}
+
+
 
 @media screen and (min-width: 40em) {
     
