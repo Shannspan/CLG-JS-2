@@ -1,36 +1,55 @@
 body {
-    font-family: 'Rampart One', cursive;
-    background-image: url("/images/Turtle-cliff-beach.jpg");
+    font-family: 'Schoolbell', cursive;
+    background: linear-gradient(to right, transparent, #D5D3D9), url("/images/Turtle-cliff-beach.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 30;
     font-size: 2em;
     color:#0e0e62;
-    text-align: center;
-
-   
 }
+/*!!Fix background url not sitting right (gap at base on expansion)*/
 
 header {
-    background-color: lightgray;
+    font-family: 'Rock Salt', cursive;
+    color: #BF9CA4;
+    font-size: 0.6em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
 }
 
-nav{
-   
-
+a:link {
+    color: #0e0e62;
 }
 
-section {
-
+a:visited {
+    color:#7A896C;
 }
 
-article {
-
+a:active {
+    color: #D5D3D9;
 }
+
+a:hover {
+    box-shadow: inset 3em 0 0 0 #D5D3D9;
+}
+/*!!Can I make a unique cursor using a photo? or find a shell shaped one? */
+
+article { 
+    color: #7A896C;
+    font-size: 0.6em;
+    padding: 1em;
+}
+
 
 aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
-}
+    }
+/*Does this list need to be on it's own page? Perhaps the article text would be better as an 'aside' space*/
 
 footer {
     background-color: lightgray;
@@ -42,23 +61,47 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    
+    margin: 0;
 
+}
+
+h1 {
+    color: #BF9CA4;
+    font-size: 0.8em;
+    list-style: none;
+}
+
+.topnav {
+    font-size: 0.5em;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+#main {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    max-width: 20em;
 }
 
 
 
 @media screen and (min-width: 40em) {
-    
 
+    header {
+        font-size: 1em;         
+    }
+    
+}
 
 /*
 Colour palette
-Mid
-Rust #A33F00
 Light
-Middle Blue Green #97D8C9
+Tuscany (muted pink) #BF9CA4
 Light Gray #D5D3D9
+Xanadu (olive green)#7A896C
 Dark
 Russian Violet #320E3B
 Prussian Blue #003052*/
